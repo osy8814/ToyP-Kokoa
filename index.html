@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KokoaTalk</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__calumn">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+            <!-- 와이파이 아이콘 -->
+        </div>
+        <div class="status-bar__calumn">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__calumn">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+            <!-- 배터리 아이콘 -->
+            <!-- 충전중 아이콘 -->
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+        <p class="welcome-header__text">If you have a Kokoa Acoount,<br> log in with your email or phone number.</p>
+    </header>
+    <form id="login-form" action="friends.html" method="get">
+        <input type="text" name="user_name" placeholder="Email or phone number">
+        <input type="text" name="password" placeholder="Password">
+        <input type="submit" value="Log In">
+        <input type="submit" value="Sign Up">
+        <a href="#">Find Kokoa Account or Pass</a>
+    </form>
+
+
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+    <!-- fontawesome 추가 스크립트 -->
+</body>
+
+</html>
