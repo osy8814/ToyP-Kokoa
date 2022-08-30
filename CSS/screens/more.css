@@ -7,9 +7,9 @@
 }
 
 .more-suggestions {
-    margin-top: 50px;
+    margin-top: 180px;
     border-top: var(--border-gray);
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .more-suggestions__title {
@@ -18,7 +18,6 @@
 
 .more-suggestions__icons {
     display: flex;
-
 
 }
 
@@ -30,7 +29,6 @@
     align-items: center;
 }
 
-.more-suggestions__icon-image {}
 
 .more-suggestions__icon-image img {
     width: 60px;
@@ -46,4 +44,8 @@
     height: 45px;
     color: var(--darkgray);
 
+}
+
+.secondary-row {
+    top: 70px
 }

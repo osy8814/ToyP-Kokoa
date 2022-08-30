@@ -10,8 +10,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: badgeAnimate 2s ease-in-out infinite;
 
 }
+
+@keyframes badgeAnimate {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateY(5px) rotateY(180deg);
+    }
+
+    10% {
+        transform: none;
+    }
+}
+
+
 
 .more_subtitle__icon {
 
@@ -24,6 +41,7 @@
     position: absolute;
     bottom: 0px;
     right: -25px;
+    animation: none;
 }
 
 .setting_infoicon {
@@ -37,4 +55,5 @@
     height: 16px;
     padding-bottom: 1px;
     margin-right: 20px;
+    animation: none;
 }

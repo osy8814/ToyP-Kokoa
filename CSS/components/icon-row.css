@@ -1,18 +1,37 @@
 .icon-row {
     display: flex;
-    justify-content: left;
+    width: 100%;
+    justify-content: space-between;
     margin-bottom: 40px;
+    position: relative;
 
 
 }
 
 .icon-row_icon {
     display: flex;
+    width: 80px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 50px;
+    position: absolute;
 
+}
+
+.icon-row_icon:first-child {
+    left: 0%;
+}
+
+.icon-row_icon:nth-child(2) {
+    left: 28%;
+}
+
+.icon-row_icon:nth-child(3) {
+    left: 55%;
+}
+
+.icon-row_icon:last-child {
+    right: 0%;
 }
 
 .icon-row_icon i {

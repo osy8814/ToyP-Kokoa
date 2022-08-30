@@ -3,6 +3,7 @@
     border-bottom: var(--border-gray);
     padding: 25px 0px;
     margin: 25px 0px;
+    margin-top: 130px;
 }
 
 .recommended-friends__title {
@@ -104,4 +105,27 @@
 .open-chat-post__hearts-counts span {
     margin-left: 3px;
 
+}
+
+@keyframes heartbeat {
+    0% {
+        color: white;
+        transform: none;
+
+    }
+
+    50% {
+        color: tomato;
+        transform: scale(2);
+    }
+
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.open-chat-post__hearts-counts:hover i {
+    will-change: transform;
+    animation: heartbeat 1s linear infinite;
 }

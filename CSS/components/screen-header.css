@@ -28,3 +28,17 @@
     left: 20px;
     bottom: 20px;
 }
+
+@keyframes ratatecog {
+    form {
+        transform: none;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-cog:hover {
+    animation: ratatecog 2s linear infinite;
+}
